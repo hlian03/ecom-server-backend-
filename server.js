@@ -6,7 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import productsRouter from "./routes/products.js";
 // import contactRouter from "./routes/contact.js";
-
+import pool from "./config/db.js";
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
